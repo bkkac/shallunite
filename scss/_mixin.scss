@@ -1,0 +1,146 @@
+// =============================================
+// all Mixin Directives : define styles
+// =============================================
+
+@mixin clearfix{
+	&:after {
+		content: '';
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+}
+
+@mixin  img {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+
+// position
+
+
+@mixin left_top_position() {
+	float: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+@mixin right_top_position() {
+	float: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+// Button
+
+
+@mixin button($bg_color, $font_color, $font_size, $height) {
+	display: inline-block;
+	height: $height;
+	background-color: $bg_color;
+	font-family: 'open_sanssemibold';
+	font-size: $font_size;
+	line-height: $height;
+	color: $font_color;
+	text-align: center;
+	padding: 0 ($height / 1.5);
+	cursor: pointer;
+	@include transition(background-color 0.2s linear);
+}
+
+// disble dragable
+@mixin disble_drag {
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+// mobile disable/highlight select when touch
+@mixin no_highlight{
+	-webkit-touch-callout: none;
+	-webkit-text-size-adjust: none;
+	-webkit-user-select: none;
+}
+// =============================================
+// all CSS3
+// =============================================
+
+// ex: transform(rotate(90deg))
+// for rotate, scale, translate, skew
+@mixin transform($prop) {
+	-webkit-transform: $prop;
+	-moz-transform: $prop;
+    -ms-transform: $prop;
+    transform: $prop;
+}
+
+
+
+//for animate / effect
+@mixin transition($prop) {
+	-webkit-transition: $prop;
+	-moz-transition: $prop;
+    -ms-transition: $prop;
+    transition: $prop;
+}
+
+@mixin box_shadow($prop) {
+	-webkit-box-shadow: $prop;
+	-moz-box-shadow: $prop;
+    -ms-box-shadow: $prop;
+    box-shadow: $prop;
+}
+
+@mixin bg_size($prop) {
+	-webkit-background-size: $prop;
+	-moz-background-size: $prop;
+	-o-background-size: $prop;
+	background-size: $prop;
+}
+
+@mixin border_radius($size) {
+	-webkit-border-radius: $size;
+	-moz-border-radius: $size;
+	border-radius: $size;
+}
+
+// triangle
+// Up: $size = 0 100px 100px 100px, $color = transparent transparent #007bff transparent
+// Left-Up: $size = 200px 200px 0 0, $color = #007bff transparent transparent transparent
+// Right-Up: $size = 0 200px 200px 0, $color = transparent #007bff transparent transparent
+
+// Left: $size = 100px 200px 100px 0, $color = transparent #007bff transparent transparent
+// Right: $size = 100px 0 100px 200px, $color = transparent transparent transparent #007bff
+
+// Down: $size = 200px 100px 0 100px, $color = #007bff transparent transparent transparent
+// Left-Down: $size = 200px 0 0 200px, $color = transparent transparent transparent #007bff
+// Right-Down: $size = 0 0 200px 200px, $color = transparent transparent #007bff transparent
+
+@mixin triangle($size, $color) {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: $size;
+	border-color: $color;
+}
+
+
+// background linear
+// ex linear(top,bottom,#1e5799,0%,$white,100%);
+
+@mixin linear($start_position, $end_position, $color1, $opacity1, $color2, $opacity2) {
+	//background: #1e5799; /* Old browsers */
+	//background: -moz-linear-gradient($start_position,  $color1 $opacity1, $color2 $opacity2); /* FF3.6-15 */
+	//background: -webkit-linear-gradient($start_position,  $color1 $opacity1, $color2 $opacity2); /* Chrome10-25,Safari5.1-6 */
+	//background: linear-gradient(to $end_position,  $color1 $opacity1, $color2 $opacity2); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	//filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color1}', endColorstr='#{$color2}',GradientType=0 ); /* IE6-9 */
+}
+
+
