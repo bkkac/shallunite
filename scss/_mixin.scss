@@ -42,7 +42,6 @@
 	display: inline-block;
 	height: $height;
 	background-color: $bg_color;
-	font-family: 'open_sanssemibold';
 	font-size: $font_size;
 	line-height: $height;
 	color: $font_color;
@@ -54,7 +53,6 @@
 
 // disble dragable
 @mixin disble_drag {
-	user-drag: none;
 	user-select: none;
 	-moz-user-select: none;
 	-webkit-user-drag: none;
@@ -87,14 +85,12 @@
 @mixin transition($prop) {
 	-webkit-transition: $prop;
 	-moz-transition: $prop;
-    -ms-transition: $prop;
     transition: $prop;
 }
 
 @mixin box_shadow($prop) {
 	-webkit-box-shadow: $prop;
 	-moz-box-shadow: $prop;
-    -ms-box-shadow: $prop;
     box-shadow: $prop;
 }
 

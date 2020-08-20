@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,YAAY;ACAZ,YAAY",
+"sources": ["../scss/_header.scss","../scss/_footer.scss"],
+"names": [],
+"file": "homepage.css"
+}
