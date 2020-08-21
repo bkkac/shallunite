@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AACA,UAQC;EAPC,WAAW,EAAE,sBAAsB;EACnC,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,GAAG,EAAE,uOAGyF;ACPhG,UAQC;EAPC,WAAW,EAAE,sBAAsB;EACnC,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,GAAG,EAAE,+PAG+F;ACPtG,UAQC;EAPC,WAAW,EAAE,sBAAsB;EACnC,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,GAAG,EAAE,2OAG0F;ACPjG,UAQC;EAPC,WAAW,EAAE,sBAAsB;EACnC,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,GAAG,EAAE,+OAG2F;ACPlG,UAQC;EAPC,WAAW,EAAE,sBAAsB;EACnC,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,GAAG,EAAE,mOAG4F;ACPnG,UAQC;EAPC,WAAW,EAAE,sBAAsB;EACnC,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,GAAG,EAAE,uPAG6F;ACPpG,UAQC;EAPC,WAAW,EAAE,sBAAsB;EACnC,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,GAAG,EAAE,uOAGyF;ACPhG,UAQC;EAPC,WAAW,EAAE,sBAAsB;EACnC,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,GAAG,EAAE,uOAGyF;ACJhG,IAAK;EACH,WAAW,EAAE,2DAA2D;;AAG1E,KAAM;EACJ,OAAO,EAAE,eAAe;;AAG1B,UAAW;EACT,SAAS,EAAE,MAAM",
+"sources": ["../scss/ibm-plex-sans-arabic/bold/_index.scss","../scss/ibm-plex-sans-arabic/extralight/_index.scss","../scss/ibm-plex-sans-arabic/light/_index.scss","../scss/ibm-plex-sans-arabic/medium/_index.scss","../scss/ibm-plex-sans-arabic/regular/_index.scss","../scss/ibm-plex-sans-arabic/semibold/_index.scss","../scss/ibm-plex-sans-arabic/text/_index.scss","../scss/ibm-plex-sans-arabic/thin/_index.scss","../scss/main.scss"],
 "names": [],
 "file": "main.css"
 }

@@ -1,0 +1,79 @@
+main {
+  position: absolute;
+  min-height: 900px;
+  min-width: 1500px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../images/login/bg.svg) no-repeat right bottom; }
+  main .container {
+    position: relative;
+    min-height: 900px;
+    height: 100%; }
+    main .container .row {
+      min-height: 900px;
+      height: 100%; }
+      main .container .row .login {
+        width: 50%; }
+        main .container .row .login form {
+          width: 640px;
+          text-align: center;
+          padding-top: 120px; }
+          main .container .row .login form .logo {
+            margin-bottom: 50px; }
+          main .container .row .login form input {
+            text-align: left;
+            height: 50px;
+            line-height: 50px;
+            width: 370px;
+            padding: 0 30px;
+            margin-bottom: 26px;
+            background: #FCFBFE;
+            border: 1px solid #E5E6EF;
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+            border-radius: 50px; }
+      main .container .row .child {
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 50%;
+        right: 0; }
+        main .container .row .child * {
+          position: absolute;
+          margin-bottom: 0; }
+        main .container .row .child .child-01 {
+          top: 50%;
+          left: 0;
+          margin-top: -190px;
+          width: 196px;
+          height: 379px;
+          background: url(../images/login/child01.svg) no-repeat; }
+        main .container .row .child .child-02 {
+          top: 30px;
+          right: 45%;
+          width: 240px;
+          height: 346px;
+          background: url(../images/login/child02.svg) no-repeat; }
+        main .container .row .child .child-03 {
+          top: 80px;
+          right: 5px;
+          width: 178px;
+          height: 390px;
+          background: url(../images/login/child03.svg) no-repeat; }
+        main .container .row .child .child-04 {
+          top: 45%;
+          left: 50%;
+          width: 179px;
+          height: 386px;
+          background: url(../images/login/child04.svg) no-repeat; }
+        main .container .row .child .child-05 {
+          bottom: 0;
+          left: 38%;
+          margin-left: -110px;
+          width: 213px;
+          height: 316px;
+          background: url(../images/login/child05.svg) no-repeat; }
+
+/*# sourceMappingURL=login.css.map */

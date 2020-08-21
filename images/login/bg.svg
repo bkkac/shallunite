@@ -1,0 +1,13 @@
+<svg width="847px" height="592px" viewBox="0 0 847 592" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4BA0EB" offset="0%"></stop>
+            <stop stop-color="#216EFB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="SU-Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SU-login-Kids" transform="translate(-753.000000, -308.000000)" fill="url(#linearGradient-1)">
+            <path d="M1618.07198,308.002983 C1442.87198,307.474739 1317.77198,350.790726 1242.77199,437.950942 C1130.27199,568.691268 1178.87199,661.398044 1033.07199,694.677399 C887.271996,727.956755 786.471999,758.859013 746.872,922.878694 C720.472001,1032.22515 829.071998,1056.26024 1072.67199,994.983965 L1701.77197,994.983965 L1679.27198,308.002983 L1618.07198,308.002983 Z" id="Path-6"></path>
+        </g>
+    </g>
+</svg>
