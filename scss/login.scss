@@ -42,6 +42,102 @@ main {
             border: 1px solid #E5E6EF;
             @include border_radius(50px);
           }
+
+          button.submit {
+            height: 80px;
+            width: 390px;
+            padding: 10px;
+            border-radius: 100px;
+            background: #FCFBFE;
+            border: none;
+            box-shadow: inset 0 0 5px 0 #E5E6EF;
+            margin-bottom: 25px;
+            span {
+              font-weight: bold;
+              font-size: 21px;
+              display: inline-block;
+              color: #FFF;
+              text-align: center;
+              height: 60px;
+              line-height: 60px;
+              width: 370px;
+              border-radius: 100px;
+              background: linear-gradient(180deg, #4BA0EB 0%, #216EFB 100%);
+            }
+          }
+          .forget_password {
+            font-size: 15px;
+            color: #216EFB;
+            margin-bottom: 67px;
+          }
+
+          .is_parent {
+            font-size: 15px;
+            color: #3E4559;
+            text-align: center;
+            span {
+              margin-bottom: 21px;
+              display: inline-block;
+            }
+            a {
+              display: block;
+              margin: 0 auto 47px;
+              line-height: 50px;
+              font-size: 15px;
+              color: #216EFB;
+              height: 50px;
+              width: 371px;
+              border: 1px solid #E5E6EF;
+              border-radius: 100px;
+              text-decoration: none;
+            }
+          }
+
+          .invite_parent {
+            height: 97px;
+            width: 298px;
+            margin: 0 auto 42px;
+            @include clearfix;
+            strong {
+              line-height: 97px;
+              color: #F7B500;
+              font-size: 21px;
+              font-weight: bold;
+              float: left;
+            }
+            button {
+              float: right;
+              height: 97px;
+              width: 98px;
+              border: 1px solid #E5E6EF;
+              border-radius: 100px;
+              background: #FFFFFF url(../images/icons/family-yellow.svg) no-repeat center center;
+              position: relative;
+              text-align: center;
+              box-shadow: 0 30px 25px -27px rgba(53,79,120,0.23);
+              margin-right: 36px;
+              em {
+                position: absolute;
+                top: 50%;
+                right: -40px;
+                margin-top: -27px;
+                display: block;
+                height: 53px;
+                width: 53px;
+                @include border_radius(53px);
+                background: #F7B500 url(../images/icons/plus.svg) no-repeat center center;
+              }
+            }
+          }
+
+          .copy_right {
+            color: #D1CFD4;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 18px;
+            text-align: center;
+          }
+
         }
       }
 

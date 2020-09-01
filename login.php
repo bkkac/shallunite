@@ -7,7 +7,7 @@ include './elements/head.php';
     <section class="container">
         <div class="row">
             <div class="login">
-                <form action="kid_feed_home.php" method="post">
+                <form action="#" method="post">
                     <p class="logo"><img src="images/logo.svg" alt=""/></p>
                     <div class="input">
                         <label>
@@ -17,9 +17,9 @@ include './elements/head.php';
                             <input type="password" name="password" placeholder="Password"/>
                         </label>
                     </div>
-                    <button type="submit"><span>Let's Go!</span></button>
+                    <button type="submit" class="submit"><span>Let's Go!</span></button>
                     <p class="forget_password">
-                        <a href="#">Forget password</a>
+                        <a href="#">Forgetten password</a>
                     </p>
                     <p class="is_parent">
                         <span>Are you a parent?</span>
@@ -27,9 +27,9 @@ include './elements/head.php';
                     </p>
                     <p class="invite_parent">
                         <strong>Invite Parent</strong>
-                        <button><img src="images/icons/family-yellow.svg" alt="family-icon"/><em></em></button>
+                        <button><em>&nbsp;</em></button>
                     </p>
-                    <p class="copuright">@ 2020 SHALL UNITE PVT., LTD. All right reserved</p>
+                    <p class="copy_right">@ 2020 SHALL UNITE PVT., LTD. All right reserved</p>
                 </form>
             </div>
             <div class="child">

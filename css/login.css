@@ -34,6 +34,93 @@ main {
             -webkit-border-radius: 50px;
             -moz-border-radius: 50px;
             border-radius: 50px; }
+          main .container .row .login form button.submit {
+            height: 80px;
+            width: 390px;
+            padding: 10px;
+            border-radius: 100px;
+            background: #FCFBFE;
+            border: none;
+            box-shadow: inset 0 0 5px 0 #E5E6EF;
+            margin-bottom: 25px; }
+            main .container .row .login form button.submit span {
+              font-weight: bold;
+              font-size: 21px;
+              display: inline-block;
+              color: #FFF;
+              text-align: center;
+              height: 60px;
+              line-height: 60px;
+              width: 370px;
+              border-radius: 100px;
+              background: linear-gradient(180deg, #4BA0EB 0%, #216EFB 100%); }
+          main .container .row .login form .forget_password {
+            font-size: 15px;
+            color: #216EFB;
+            margin-bottom: 67px; }
+          main .container .row .login form .is_parent {
+            font-size: 15px;
+            color: #3E4559;
+            text-align: center; }
+            main .container .row .login form .is_parent span {
+              margin-bottom: 21px;
+              display: inline-block; }
+            main .container .row .login form .is_parent a {
+              display: block;
+              margin: 0 auto 47px;
+              line-height: 50px;
+              font-size: 15px;
+              color: #216EFB;
+              height: 50px;
+              width: 371px;
+              border: 1px solid #E5E6EF;
+              border-radius: 100px;
+              text-decoration: none; }
+          main .container .row .login form .invite_parent {
+            height: 97px;
+            width: 298px;
+            margin: 0 auto 42px; }
+            main .container .row .login form .invite_parent:after {
+              content: '';
+              display: block;
+              height: 0;
+              clear: both;
+              visibility: hidden; }
+            main .container .row .login form .invite_parent strong {
+              line-height: 97px;
+              color: #F7B500;
+              font-size: 21px;
+              font-weight: bold;
+              float: left; }
+            main .container .row .login form .invite_parent button {
+              float: right;
+              height: 97px;
+              width: 98px;
+              border: 1px solid #E5E6EF;
+              border-radius: 100px;
+              background: #FFFFFF url(../images/icons/family-yellow.svg) no-repeat center center;
+              position: relative;
+              text-align: center;
+              box-shadow: 0 30px 25px -27px rgba(53, 79, 120, 0.23);
+              margin-right: 36px; }
+              main .container .row .login form .invite_parent button em {
+                position: absolute;
+                top: 50%;
+                right: -40px;
+                margin-top: -27px;
+                display: block;
+                height: 53px;
+                width: 53px;
+                -webkit-border-radius: 53px;
+                -moz-border-radius: 53px;
+                border-radius: 53px;
+                background: #F7B500 url(../images/icons/plus.svg) no-repeat center center; }
+          main .container .row .login form .copy_right {
+            color: #D1CFD4;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 18px;
+            text-align: center; }
       main .container .row .child {
         display: block;
         position: absolute;

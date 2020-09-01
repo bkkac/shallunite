@@ -38,11 +38,55 @@
   font-style: normal;
   font-weight: 100;
   src: local("IBM Plex Sans Arabic Thin"), local("IBMPlexSansArabic-Thin"), url("../fonts/IBM-Plex-Sans-Arabic/IBMPlexSansArabic-Thin.woff2") format("woff2"), url("../fonts/IBM-Plex-Sans-Arabic/IBMPlexSansArabic-Thin.woff") format("woff"); }
+/**
+font-weight IBM Plex Sans Arabic
+100 thin
+200 extra light
+300 light
+400 regular
+450 text
+500 medium
+600 semi bold
+700 bold
+ */
 body {
   font-family: 'IBM Plex Sans Arabic', 'Helvetica Neue', Arial, sans-serif; }
 
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #BCB8B8;
+  font-size: 15px; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #BCB8B8;
+  font-size: 15px; }
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #BCB8B8;
+  font-size: 15px; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #BCB8B8;
+  font-size: 15px; }
+
+input:focus, input:active,
+button:focus,
+button:active,
+a:focus,
+a:active {
+  outline: 0; }
+
 .hide {
   display: none !important; }
+
+.clearfix:after {
+  display: block;
+  width: 0;
+  height: 0;
+  clear: both; }
 
 .container {
   max-width: 1500px; }
