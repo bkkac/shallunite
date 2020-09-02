@@ -1,0 +1,11 @@
+$font-prefix: '..' !default;
+@font-face {
+  font-family: 'IBM Plex Sans Arabic';
+  font-style: normal;
+  font-weight: 200;
+  src: local('IBM Plex Sans Arabic ExtraLight'),
+    local('IBMPlexSansArabic-ExtraLight'),
+    url('#{$font-prefix}/fonts/IBM-Plex-Sans-Arabic/IBMPlexSansArabic-ExtraLight.woff2') format('woff2'),
+    url('#{$font-prefix}/fonts/IBM-Plex-Sans-Arabic/IBMPlexSansArabic-ExtraLight.woff') format('woff');
+}
+
