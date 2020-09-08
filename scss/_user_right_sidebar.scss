@@ -1,2 +1,115 @@
 @import "colors";
 @import "mixin";
+
+
+.right-side {
+  border-left: 1px solid $border;
+  width: 234px;
+  p {
+    margin-bottom: 0;
+  }
+  .contact {
+    margin-bottom: 30px;
+    .title {
+      color: #3E4559;
+      font-size: 15px;
+      line-height: 22px;
+      margin: 14px 20px 25px;
+      @include clearfix;
+      a {
+        float: right;
+        text-decoration: none;
+        color: $link;
+      }
+    }
+  }
+  .kids-online {
+    .tab {
+      height: 44px;
+      border-top: 1px solid $border;
+      border-bottom: 1px solid $border;
+
+      @include clearfix;
+      a {
+        width: 50%;
+        float: left;
+        line-height: 44px;
+        display: inline-block;
+        font-size: 15px;
+        font-weight: 500;
+        color: #D1CFD5;
+        text-align: center;
+        text-decoration: none;
+        &.active {
+          color: #3E4559;
+        }
+      }
+    }
+    label {
+      margin-bottom: 0;
+      position: relative;
+      input {
+        height: 46px;
+        width: 236px;
+        border: 1px solid #E5E6EF;
+        background-color: #FCFBFE;
+        border-left: 0;
+        padding: 0px 20px;
+        line-height: 46px;
+      }
+      .search {
+        width: 19px;
+        height: 19px;
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        margin-top: -10px;
+        background: url('../images/icons/search.svg') no-repeat;
+      }
+    }
+  }
+  .list {
+    a {
+      display: block;
+      margin: 12px 20px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 14px;
+      color: #1E1E1E;
+      text-decoration: none;
+      em {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        display: block;
+        float: left;
+      }
+      &.online {
+        em {
+          position: relative;
+          &:after {
+            content: '';
+            height: 15px;
+            width: 16px;
+            border: 3px solid #FFFFFF;
+            border-radius: 20px;
+            background-color: #9BE24F;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin-bottom: -3px;
+            margin-right: -3px;
+          }
+        }
+      }
+      span {
+        float: left;
+        &.time {
+          margin-left: 10px;
+          font-weight: 500;
+          color: #BEBBC6;
+        }
+      }
+    }
+  }
+}
