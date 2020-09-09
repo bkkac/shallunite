@@ -40,6 +40,10 @@ a {
   &:active {
     outline: 0;
   }
+  &:focus {
+    color: $link;
+  }
+  text-decoration: none;
 }
 
 .hide {
@@ -54,8 +58,15 @@ a {
     clear: both;
   }
 }
+.mon {color: $mon};
+.tue {color: $tue};
+.wed {color: $wed};
+.thu {color: $thu};
+.fri {color: $fri};
+.sat {color: $sat};
+.sun {color: $sun};
 
 .container {
-  max-width: 1500px;
+  max-width: 1600px;
 }
 

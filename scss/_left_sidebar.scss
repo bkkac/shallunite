@@ -1,0 +1,82 @@
+@import "colors";
+@import "mixin";
+
+.left-side {
+  width: 284px;
+  .display-profile {
+    background: url(../images/example/profile-bg.png);
+    height: 180px;
+    position: relative;
+    a {
+      display: block;
+      height: 90px;
+      width: 90px;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      margin-left: -40px;
+      margin-bottom: -40px;
+      border: 5px solid #FFF;
+      border-radius: 100px;
+    }
+  }
+  nav {
+    margin-top: 80px;
+    margin-left: 60px;
+    a {
+      position: relative;
+      display: block;
+      height: 30px;
+      line-height: 30px;
+      padding-left: 60px;
+      margin: 30px 0;
+      color: #A5B1C1;
+      font-size: 17px;
+      font-weight: 500;
+      text-decoration: none;
+
+      &:hover {
+        color: #216EFB;
+      }
+
+      &:first-child {
+        margin-top: 0;
+      }
+      i {
+        display: block;
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        &.explore {
+          background: url(../images/icons/explore.svg) no-repeat;
+        }
+        &.save-post {
+          background: url(../images/icons/bookmark.svg) no-repeat;
+        }
+        &.my-groups {
+          background: url(../images/icons/people-group-left.svg) no-repeat;
+        }
+        &.my-pages {
+          background: url(../images/icons/my_page.svg) no-repeat;
+        }
+        &.my-albums {
+          background: url(../images/icons/my_albums.svg) no-repeat;
+        }
+        &.games {
+          background: url(../images/icons/game-left.svg) no-repeat;
+        }
+        &.events {
+          background: url(../images/icons/events.svg) no-repeat;
+        }
+      }
+
+    }
+    hr {
+      border-bottom: 1px solid #E5E6EF;
+      width: 164px;
+      margin: 10px 0;
+    }
+  }
+}

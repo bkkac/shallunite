@@ -71,7 +71,7 @@ include './elements/head.php';
 
 
 <?php
-include './elements/footer.php';
+include './elements/footer_bottom.php';
 ?>
 
 

@@ -72,12 +72,20 @@ body {
   color: #BCB8B8;
   font-size: 15px; }
 
-input:focus, input:active,
-button:focus,
-button:active,
-a:focus,
-a:active {
-  outline: 0; }
+input,
+button,
+a {
+  text-decoration: none; }
+  input:focus, input:active,
+  button:focus,
+  button:active,
+  a:focus,
+  a:active {
+    outline: 0; }
+  input:focus,
+  button:focus,
+  a:focus {
+    color: #216EFB; }
 
 .hide {
   display: none !important; }
@@ -88,7 +96,28 @@ a:active {
   height: 0;
   clear: both; }
 
+.mon {
+  color: #CEBA3A; }
+
+.tue {
+  color: #EF5877; }
+
+.wed {
+  color: #2CA621; }
+
+.thu {
+  color: #FC6B39; }
+
+.fri {
+  color: #64C3E6; }
+
+.sat {
+  color: #CB6BB5; }
+
+.sun {
+  color: #FC3D3D; }
+
 .container {
-  max-width: 1500px; }
+  max-width: 1600px; }
 
 /*# sourceMappingURL=main.css.map */

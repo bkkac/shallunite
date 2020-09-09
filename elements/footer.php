@@ -1,6 +1,12 @@
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="../js/<?php echo $page_handle?>.js"></script>
+<footer>
+    <nav>
+        <a href="#">About</a><i>·</i>
+        <a href="#">Contact</a><i>·</i>
+        <a href="#">Privacy</a><i>·</i>
+        <a href="#">Terms of use</a><i>·</i>
+        <a href="#">Developers</a><i>·</i>
+        <a href="#">More</a><i class="more"></i>
+    </nav>
+    <p class="copyright">ShallUnite © 2020</p>
+</footer>
 
-</body>
-</html>
