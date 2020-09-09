@@ -1,5 +1,5 @@
 <?php
-$page_handle = 'kid_search';
+$page_handle = 'kid_chat';
 include ('./elements/head.php');
 include ('./elements/kid_header.php');
 ?>
@@ -7,9 +7,7 @@ include ('./elements/kid_header.php');
     <div class="row flex-column flex-md-row">
         <main class="col">
             <div class="row">
-
                 <div class="col">
-
 
 
                 </div>
@@ -18,13 +16,11 @@ include ('./elements/kid_header.php');
 
 
 
-                    <?php include ('./elements/footer.php'); ?>
                 </div>
                 <!-- end col right /-->
             </div>
             <!-- end row /-->
         </main>
-        <?php include ('./elements/kid_right_sidebar.php'); ?>
     </div>
 </div>
 

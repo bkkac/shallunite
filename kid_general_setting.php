@@ -1,20 +1,21 @@
 <?php
-$page_handle = 'kid_search';
+$page_handle = 'kid_general_setting';
 include ('./elements/head.php');
 include ('./elements/kid_header.php');
 ?>
 <div class="container">
     <div class="row flex-column flex-md-row">
+        <?php include ('./elements/kid_left_sidebar.php'); ?>
         <main class="col">
             <div class="row">
 
                 <div class="col">
 
 
-
                 </div>
                 <!-- end col left /-->
                 <div class="col">
+
 
 
 

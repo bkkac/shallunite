@@ -1,8 +1,8 @@
 @import "colors";
 @import "mixin";
 @import "header";
-@import "user_left_sidebar";
-@import "user_right_sidebar";
+@import "left_sidebar";
+@import "right_sidebar";
 @import "footer";
 
 main {
@@ -635,10 +635,13 @@ main {
       }
       .date-filter {
         width: 133px;
+        display: flex;
+        flex-direction: row;
         i {
           height: 12px;
           width: 18px;
           opacity: 0.29;
+          display: block;
           background: url('../images/icons/arrow-funel.svg') no-repeat right top;
         }
       }
@@ -646,3 +649,4 @@ main {
   }
 
 }
+

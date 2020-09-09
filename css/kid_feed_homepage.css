@@ -817,11 +817,14 @@ main {
       line-height: 32px;
       margin-right: auto; }
     main .school-notice .title .date-filter {
-      width: 133px; }
+      width: 133px;
+      display: flex;
+      flex-direction: row; }
       main .school-notice .title .date-filter i {
         height: 12px;
         width: 18px;
         opacity: 0.29;
+        display: block;
         background: url("../images/icons/arrow-funel.svg") no-repeat right top; }
 
-/*# sourceMappingURL=homepage.css.map */
+/*# sourceMappingURL=kid_feed_homepage.css.map */

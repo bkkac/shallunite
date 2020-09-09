@@ -1,10 +1,11 @@
 <?php
-$page_handle = 'kid_search';
+$page_handle = 'parent_feed_homepage';
 include ('./elements/head.php');
-include ('./elements/kid_header.php');
+include ('./elements/parent_header.php');
 ?>
 <div class="container">
     <div class="row flex-column flex-md-row">
+        <?php include ('./elements/parent_left_sidebar.php'); ?>
         <main class="col">
             <div class="row">
 
@@ -24,7 +25,7 @@ include ('./elements/kid_header.php');
             </div>
             <!-- end row /-->
         </main>
-        <?php include ('./elements/kid_right_sidebar.php'); ?>
+        <?php include ('./elements/parent_right_sidebar.php'); ?>
     </div>
 </div>
 

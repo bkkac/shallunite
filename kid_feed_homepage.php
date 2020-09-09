@@ -1,11 +1,11 @@
 <?php
-$page_handle = 'homepage';
+$page_handle = 'kid_feed_homepage';
 include ('./elements/head.php');
-include ('./elements/header.php');
+include ('./elements/kid_header.php');
 ?>
 <div class="container">
     <div class="row flex-column flex-md-row">
-        <?php include ('./elements/user_left_sidebar.php'); ?>
+        <?php include ('./elements/kid_left_sidebar.php'); ?>
         <main class="col">
             <div class="row">
 
@@ -22,7 +22,7 @@ include ('./elements/header.php');
                             <button class="etc"><i></i></button>
                         </div>
                     </div>
-                    <!-- end create post //-->
+                    <!-- end create post /-->
                     <div class="greeting">
                         <div class="bg"></div>
                         <div class="bg-shadow"></div>
@@ -122,10 +122,10 @@ include ('./elements/header.php');
                         </div>
 
                     </div>
-                    <!-- end feeds //-->
+                    <!-- end feeds /-->
 
                 </div>
-
+                <!-- end col left /-->
                 <div class="col">
                     <div class="story">
                         <h5><span>Story</span><a href="#">See All</a></h5>
@@ -246,7 +246,7 @@ include ('./elements/header.php');
                             </li>
                         </ul>
                     </div>
-                    <!-- end duework //-->
+                    <!-- end duework /-->
                     <div class="school-notice">
                         <div class="title">
                             <h3>School Notice</h3>
@@ -269,14 +269,14 @@ include ('./elements/header.php');
                             <a href="#" class="right"><i></i></a>
                         </nav>
                     </div>
-                    <!-- end school-notice //-->
+                    <!-- end school-notice /-->
                     <?php include ('./elements/footer.php'); ?>
                 </div>
-                <!-- end col //-->
+                <!-- end col right /-->
             </div>
-            <!-- end row //-->
+            <!-- end row /-->
         </main>
-        <?php include ('./elements/user_right_sidebar.php'); ?>
+        <?php include ('./elements/kid_right_sidebar.php'); ?>
     </div>
 </div>
 
